@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup_section">
+        <form id="signupForm">
+            <h2>Create Your Account</h2>
+            
+            <div class="field">
+                <label for="userid">Username</label>
+                <input type="text" id="userid" required>
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <div class="field">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" required>
+            </div>
+
+            <div class="field">
+                <label for="accountType">Account Type</label>
+                <select id="accountType" required>
+                    <option value="">Select Account Type</option>
+                    <option value="customer">Customer</option>
+                    <option value="storeManager">Store Manager</option>
+                </select>
+            </div>
+
+            <button type="submit" class="button">Sign Up</button>
+        </form>
+        <p id="signupMessage"></p>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
