@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Details | Cafe Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cafe-header">
+        <h2 id="cafeName"></h2>
+    </header>
+    
+    <section class="cafe-details" id="cafeDetails">
+        <div class="cafe-info">
+            <img id="cafeImage" alt="Cafe Image" class="cafe-image"/>
+            <p id="cafeAddress" class="cafe-address"></p>
+        </div>
+
+        <div class="cafe-reviews">
+            <h3>Reviews</h3>
+            <ul id="reviewsList" class="reviews-list"></ul>
+        </div>
+    </section>
+
+    <section id="reviewSection" class="review-section" style="display: none;">
+        <h3>Add a Review</h3>
+        <form id="addReviewForm">
+            <div class="field">
+                <label for="reviewText">Review</label>
+                <textarea id="reviewText" required></textarea>
+            </div>
+            <div class="field">
+                <label for="reviewRating">Rating (1-10)</label>
+                <input type="number" id="reviewRating" min="1" max="10" required />
+            </div>
+            <button class="button" type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <script src="cafe_details.js"></script>
+</body>
+</html>
+

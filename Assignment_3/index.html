@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Review Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav_logo">
+          <a href="#">
+            <img src="coffee_logo.png" alt="Coffee Logo" />
+            <h2>Coffee Corner</h2>
+          </a>
+        </div>
+
+        <input type="checkbox" id="click" />
+        <label for="click">
+          <i class="menu_btn bx bx-menu"></i>
+          <i class="close_btn bx bx-x"></i>
+        </label>
+
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="cafes.html">Cafes</a></li>
+          <li><a href="login.html">Login</a></li> 
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero_section">
+      <div class="section_container">
+        <div class="hero_container">
+          <div class="text_section">
+            <h2>Find your prefect Coffee</h2>
+            <h3>Discover the Magic of the perfect cup</h3>
+            <p>
+              Welcome to our coffee paradise, where every bean tells a story and
+              every cup sparks, And you can help it reach everyone.
+            </p>
+
+            <div class="hero_section_button">
+              <a href="cafes.html" class="button">Find your perfect Cafe</button>
+              <a href="login.html" class="button">Got your own cafe ? </button>
+            </div>
+          </div>
+
+          <div class="image_section">
+            <img src="cofffee_image.png" alt="Coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about_us" id="about">
+      <div class="section_container">
+        <div class="about_container">
+          <div class="text_section">
+            <h2 class="section_title">About Us</h2>
+            <p>
+              At Coffee Corner, we believe that every cup of coffee tells a story,
+              and every cafe has a unique ambiance waiting to be discovered. Our mission is to connect coffee lovers with the best
+              cafes in town, providing a platform where experiences are shared and memories are made.
+            </p>
+          </div>
+
+          <div class="image_section">
+            <img src="about_coffee.png" alt="coffee" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section_title">Contact Us</h2>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Textarea</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+
+          <div class="contact_text">
+            <div class="contact_items">
+              <i class="bx bx-current-location"></i>
+              <div class="contact_details">
+                <h3>Our Location</h3>
+                <p>Ontario, Canada</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-envelope"></i>
+              <div class="contact_details">
+                <h3>General Enquries</h3>
+                <p>coffeecorner@xyz.com</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-phone-call"></i>
+              <div class="contact_details">
+                <h3>Call Us</h3>
+                <p>+1 9272823912</p>
+              </div>
+            </div>
+            <div class="contact_items">
+              <i class="bx bxs-time-five"></i>
+              <div class="contact_details">
+                <h3>Our Timing</h3>
+                <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section_container">
+        <div class="footer_section">
+          <div class="footer_logo">
+            <a href="index.html">
+              <img src="coffee_logo.png" alt="Coffee Logo" />
+              <h2>Coffee Corner</h2>
+            </a>
+          </div>
+
+          <div class="useful_links">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="cafes.html">Cafes</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </div>
+
+          <div class="contact_us">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <i class="bx bx-current-location"></i>
+                <span>Ontario, Canada</span>
+              </li>
+              <li>
+                <i class="bx bxs-phone-call"></i> <span>+1 9272823912</span>
+              </li>
+              <li>
+                <i class="bx bxs-time-five"></i>
+                <span>Mon-Sun : 10:00 AM - 7:00 PM</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="follow_us">
+            <h3>Follow</h3>
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram-alt"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+  </html>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const loggedIn = localStorage.getItem("loggedIn");
+  
+      if (loggedIn) {
+        const loginLink = document.querySelector('a[href="login.html"]');
+        loginLink.textContent = "Logout";
+        loginLink.href = "#";
+        loginLink.addEventListener("click", function () {
+          localStorage.removeItem("loggedIn");
+          window.location.reload();
+        });
+      }
+    });
+  </script>
+  
