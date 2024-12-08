@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/login">Login</ion-button>
+      <ion-button routerLink="/signup">Sign Up</ion-button>
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <section class="hero_section">
+    <div class="hero_container">
+      <div class="text_section">
+        <h2>Find your perfect Coffee</h2>
+        <h3>Discover the Magic of the perfect cup</h3>
+        <p>
+          Welcome to our coffee paradise, where every bean tells a story and
+          every cup sparks joy. Help us reach everyone.
+        </p>
+        <div class="hero_section_button">
+          <ion-button (click)="navigateToCafes()" expand="block">Find your perfect Cafe</ion-button>
+          <ion-button (click)="navigateToCafeManager()" expand="block">Got your own cafe?</ion-button>
+        </div>
+      </div>
+      <div class="image_section">
+        <img src="assets/images/cofffee_image.png" alt="Coffee" />
+      </div>
+    </div>
+  </section>
+</ion-content>

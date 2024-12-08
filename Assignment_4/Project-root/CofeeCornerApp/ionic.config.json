@@ -1,0 +1,7 @@
+{
+  "name": "CofeeCornerApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
